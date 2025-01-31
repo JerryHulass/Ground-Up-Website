@@ -1,23 +1,48 @@
 
-* {
-    margin: 0;
-    padding: 0;
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    color: #6B350E;
+    
 }
 header {
-    background-image: url(img/header-photo.jpg);
-    background-size: cover;
+    background-image: 
+        linear-gradient(#6b350ec4, #6b350e00), 
+        url(img/header-photo.jpg);
     background-repeat: no-repeat;
     text-align: center;
-    background-position: 0% 0%;
+    background-position: 11% -100%;
+    background-size: cover;
+    color: #fff;
+}
+nav a img{
+    margin: 0;
+    border: 0;
+    padding: 18px 76px 26px 76px;
+}
+nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
 }
 nav li {
     list-style: none;
-    color: #fff;
+    text-transform: uppercase;
     display: inline-block;
-    padding: 16px;
+    padding: 15px;
+    padding-top: 0;
+}
+nav ul {
+    padding: 0;
+    border: 0;
+    margin: 0;
 }
 nav p {
-    font-size: 20px;
-    color: #fff;
-    padding: 30%;
+    margin: 0;
+    font-size: 40px;
+    padding: 30% 30px 70% 30px;
+    font-weight: 900;
+}
+main {
+    text-align: left;
 }
