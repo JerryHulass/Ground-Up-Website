@@ -7,11 +7,8 @@ header {
     background-image: url(img/header-photo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-nav img {
-    width: 50vw;
-    padding: 0 100px 0 0;
-    
+    text-align: center;
+    background-position: 0% 0%;
 }
 nav li {
     list-style: none;
@@ -19,7 +16,8 @@ nav li {
     display: inline-block;
     padding: 16px;
 }
-h1 {
+nav p {
     font-size: 20px;
     color: #fff;
+    padding: 30%;
 }
