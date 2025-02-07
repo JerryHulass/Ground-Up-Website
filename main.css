@@ -3,12 +3,6 @@ body{
     font-family: 'Nunito', sans-serif;
     background-color: white;
     margin: 0;
-    background-color: #35667C;
-}
-.container{
-    background-color: #fff;
-    max-width: 1320;
-
 }
 img {
     max-width: 100%;
@@ -22,7 +16,6 @@ header {
     background-position: 11% -100%;
     background-size: cover;
     color: #fff;
-    border-radius: 20px;
 }
 nav a img{
     margin: 0;
@@ -93,7 +86,7 @@ section img {
     margin-top: 60px;
     border-radius: 20px;
 }
-div {
+.menus {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,6 +100,8 @@ div {
     justify-content: center;
     align-items: flex-end;
     border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
 }
 .drink-menu{
     background-image: url(img/drink\ menu\ photo.jpg);
@@ -153,4 +148,91 @@ footer ul {
 .copyright{
     font-size: 14px;
     color: #6B350E;
+}
+@media (min-width: 650px) {
+    body {
+        font-family: 'Nunito', sans-serif;
+        background-color: white;
+        margin: 20px;
+        background-color: #35667C;
+    }
+
+    .container {
+        margin: auto;
+        background-color: #fff;
+        max-width: 1320px;
+        border-radius: 20px;
+        margin-top: 0;
+    }
+    header {
+        background-image: 
+                linear-gradient(#6b350ec4, #6b350e00), 
+                url(img/header-photo.jpg);
+        background-repeat: no-repeat;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+        color: #fff;
+        border-radius: 20px;
+        border: 10px solid white;
+    }
+    header p {
+        margin: 0;
+        font-size: 29px;
+        padding: 12% 30px 23% 30px;
+        font-weight: 900;
+    }
+    .drink-menu{
+        font-size: 46px;
+    }
+    .food-menu{
+        font-size: 46px;
+    }
+}
+@media (min-width: 900px) {
+    body {
+        font-family: 'Nunito', sans-serif;
+        background-color: white;
+        margin: 20px;
+        background-color: #35667C;
+    }
+
+    .container {
+        margin: auto;
+        background-color: #fff;
+        max-width: 1320px;
+        border-radius: 20px;
+        margin-top: 0;
+    }
+    header {
+        background-image: 
+                linear-gradient(#6b350ec4, #6b350e00), 
+                url(img/header-photo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: #fff;
+        border-radius: 20px;
+        border: 10px solid white;
+    }
+    header p {
+        margin: 0;
+        font-size: 29px;
+        padding: 12% 30px 23% 30px;
+        font-weight: 900;
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between; /* Push logo left, links right */
+        align-items: center;
+        padding: 0;
+    }
+    nav a img {
+        padding: 15px 0 0 40px;
+    }
+    nav ul {
+        display: flex;
+        margin: 0;
+        padding: 32px 40px 0 0; /* Add padding to the right */
+    }
 }
