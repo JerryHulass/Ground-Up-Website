@@ -3,6 +3,12 @@ body{
     font-family: 'Nunito', sans-serif;
     background-color: white;
     margin: 0;
+    background-color: #35667C;
+}
+.container{
+    background-color: #fff;
+    max-width: 1320;
+
 }
 img {
     max-width: 100%;
@@ -16,6 +22,7 @@ header {
     background-position: 11% -100%;
     background-size: cover;
     color: #fff;
+    border-radius: 20px;
 }
 nav a img{
     margin: 0;
@@ -42,7 +49,7 @@ nav ul {
 header p {
     margin: 0;
     font-size: 40px;
-    padding: 30% 30px 70% 30px;
+    padding: 15% 30px 70% 30px;
     font-weight: 900;
 }
 main {
@@ -90,19 +97,26 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: stretch;
+    padding: 25px;
+    gap: 30px;
+}
+.menus a{
+    aspect-ratio: 1000 / 780;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 20px;
 }
 .drink-menu{
     background-image: url(img/drink\ menu\ photo.jpg);
     background-size: cover;
-    padding: 195px 50px 10px 50px;
     font-size: 36px;
     font-weight: 900;
 }
 .food-menu{
     background-image: url(img/food\ menu\ photo.jpg);
     background-size: cover;
-    padding: 195px 50px 10px 50px;
     font-size: 36px;
     font-weight: 900;
 }
@@ -139,59 +153,4 @@ footer ul {
 .copyright{
     font-size: 14px;
     color: #6B350E;
-}
-@media (max-width: 650px) {
-    header p {
-        font-size: 20px;
-        padding: 30% 30px 70% 30px;
-    }
-    nav li a {
-        font-size: 16px;
-    }
-    section img {
-        margin-top: 60px;
-        border-radius: 20px;
-        max-width: 100%;
-    }
-    .drink-menu{
-        background-image: url(img/drink\ menu\ photo.jpg);
-        background-size: cover;
-        padding: 195px 50px 10px 50px;
-        font-size: 20px;
-        font-weight: 900;
-    }
-    .food-menu{
-        background-image: url(img/food\ menu\ photo.jpg);
-        background-size: cover;
-        padding: 195px 50px 10px 50px;
-        font-size: 20px;
-        font-weight: 900;
-    }
-    
-}
-@media (max-width: 800px) {
-    header p {
-        font-size: 20px;
-        padding: 30% 30px 70% 30px;
-    }
-    nav li a {
-        font-size: 16px;
-    }
-    section img {
-        margin-top: 60px;
-        border-radius: 20px;
-        max-width: 100%;
-    }
-    .drink-menu{
-        background-image: url(img/drink\ menu\ photo.jpg);
-        background-size: cover;
-        padding: 195px 50px 10px 50px;
-        font-size: 20px;
-        font-weight: 900;
-    }
-    .food-menu{
-        background-image: url(img/food\ menu\ photo.jpg);
-        background-size: cover;
-        padding: 195px 50px 10px 50px;
-    }
 }
